@@ -1,0 +1,25 @@
+## Ehdotus rakenteesta.
+
+
+* Todos tallennetaan tavallisena listana, aina käyttäen
+append funktiota.
+
+* luodaan funktiot: 
+
+		add_task(lista)
+		-> palauttaa päivitetyn listan
+		
+		view_tasks(lista)
+		-> tulostaa listan elementit sekä numeroinnin, esim:
+			1. joku 
+			2. joku toinen
+			3. ...
+		-> palauttaa lopuksi saman listan sellaisenaan.
+			(tämä helpottaa main funktion toteutusta).
+		-> Voidaan toteuttaa for loopilla ja enumeratella.
+
+		remove_task(lista)
+		-> poistaa elementin indeksistä index.
+		-> palauttaa päivitetyn listan.
+
+
